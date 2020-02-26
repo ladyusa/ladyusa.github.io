@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title>OneSignal Examples Page</title>
+</head>
+
+<body>
+<h1>OneSignal Example</h1>
+<script type="text/javascript">
+OneSignal.push(function() {
+	OneSignal.on('notificationDisplay', function(event) {
+		console.log('OneSignal notification displayed:', event);
+	});
+});
+
+
+</script>
+
+
+</body>
+</html>
